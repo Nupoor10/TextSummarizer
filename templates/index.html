@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar-wrapper">
+            <div class="nav-logo">
+                <a href="#home">📜TEXT SUMMARIZER</a>
+            </div>
+            <div class="nav-component">
+                <a href="#home" class="nav-link">HOME</a>
+                <a href="#about" class="nav-link">HOW IT WORKS</a>
+                <a href="#demo" class="nav-link">DEMO</a>
+                <a href="#footer" class="nav-link">CONTACT US</a>
+            </div>
+        </nav>
+        <div class="header-wrapper" id="home">
+            <div class="header-text">
+                <div class="header-text-1">
+                    <h2>Want to reduce the hassle of reading longer texts?</h2>
+                    <h2>Try out our Text Summarizer!</h2>
+                    <h2>Get crisp and concise summaries of texts and article</h2>
+                </div>
+                <br><br>
+                <div class="header-text-2">
+                    <h2>📚 Summarizes long texts and paragraphs</h2>
+                    <h2>📝 Quickly extracts key points</h2>
+                    <h2>⏳ Provides concise summaries in seconds</h2>
+                    <h2>🉑 Uses Natural Language Processing</h2>
+                </div>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/8DYzFcX/text-summarize-scaled-1.jpg" alt="text-summarization" height="500px" width="500px" class="header-img">
+            </div>
+        </div>
+        <div class="about-wrapper" id="about">
+            <div >
+                <img class="about-img" src="https://i.ibb.co/M80B7TZ/images-1.png" alt="images-1" height="200px" width="500px">
+            </div>
+            <div class="about-text">
+                <h1>HOW IT WORKS?</h1>
+                <h3>📌 Text Summarizer application is powered by <em style="color:#FF9533;">Natural Language Processing</em></h3>
+                <h3>📌 Firstly, we use the <em style="color:#FF9533;">NLTK toolkit</em> to clean, process and tokenize our data</h3>
+                <h3>📌 Using the <em style="color:#FF9533;">Frequency Method</em> we find the frequency of all the words in our text data and store the text data and its frequency in a dictionary</h3>
+                <h3>📌 After that, we tokenize our text data. The sentences which contain more high frequency words will be kept in our final summary data.</h3>
+            </div>
+        </div>
+        <div class="demo-wrapper" id="demo">
+            <h1>TRY IT OUT</h1>
+            <form action="/summary" method="POST" class="form-content">
+                <textarea name="text-content" placeholder="Enter your text here" class="form-textarea" rows="20" cols="100"></textarea>        
+                <div class="form-btns">
+                    <button type="button" class="form-btn-1" onclick="eraseText()">CLEAR</button>
+                    <button type="submit" class="form-btn-2">SUMMARIZE</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer-wrapper color" id="footer">
+            <h1 class="color footer-heading">CONTACT US</h1>
+            <div class="color footer-content">
+                <div class="color footer-text">
+                    <h3 class="color">📚🤝This Project was made by Nupoor Shetye, Vaibhav Zharapkar and Harish Yadav</h3>
+                    <br>
+                    <h3 class="color">Queries? Get in touch <a class="color margin" href="https://forms.gle/treHsr87fTmmDRT36" target="_blank">📞</a></h3>
+                    <br>
+                    <h3 class="color">Have any feedbacks or suggestion?Find us here<a class="color margin" href="https://forms.gle/treHsr87fTmmDRT36" target="_blank">🔗</a></h3>
+                </div>
+                <div class="color footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.756203599192!2d72.8237143!3d19.1212925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9e13ef12003%3A0x5767a74a751ccaf9!2sRajiv%20Gandhi%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1678539922078!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>   
+        </div>
+    </div>
+        
+    <script>
+        function eraseText() {
+            document.querySelector(".form-textarea").value = "";
+        }
+    </script>
+</body>
+</html>

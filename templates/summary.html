@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar-wrapper">
+            <div class="nav-logo">
+                <a href="/">📜TEXT SUMMARIZER</a>
+            </div>
+            <div class="nav-component">
+                <a href="/" class="nav-link">HOME</a>
+                <a href="/#about" class="nav-link">HOW IT WORKS</a>
+                <a href="/#demo" class="nav-link">DEMO</a>
+                <a href="#footer" class="nav-link">CONTACT US</a>
+            </div>
+        </nav>
+        <div class="summary-heading">
+            <h1>Text Summary</h1>
+        </div>
+        <div class="summary-wrapper">
+            <div class="text-content">
+                <h2 class="text-heading">ORIGINAL</h2>
+                <p class="text">{{original}}</p>
+                <br>
+                <h3 class="text-words"> WORDCOUNT : {{words_original}}</h3>
+            </div>
+            <div class="text-content">
+                <h2 class="text-heading">SUMMARY</h2>
+                <p class="text">{{summary}}</p>
+                <br>
+                <h3 class="text-words"> WORDCOUNT : {{words_summary}}</h3>
+            </div>
+        </div>
+        <br>
+        <div class="footer-wrapper color" id="footer">
+            <h1 class="color footer-heading">CONTACT US</h1>
+            <div class="color footer-content">
+                <div class="color footer-text">
+                    <h3 class="color">📚🤝This Project was made by Nupoor Shetye, Vaibhav Zharapkar and Harish Yadav</h3>
+                    <br>
+                    <h3 class="color">Queries? Get in touch <a class="color margin" href="https://forms.gle/treHsr87fTmmDRT36" target="_blank">📞</a></h3>
+                    <br>
+                    <h3 class="color">Have any feedbacks or suggestion?Find us here<a class="color margin" href="https://forms.gle/treHsr87fTmmDRT36" target="_blank">🔗</a></h3>
+                </div>
+                <div class="color footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.756203599192!2d72.8237143!3d19.1212925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9e13ef12003%3A0x5767a74a751ccaf9!2sRajiv%20Gandhi%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1678539922078!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>   
+        </div>
+    </div>
+</body>
+</html>
