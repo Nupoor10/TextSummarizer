@@ -8,31 +8,31 @@ The GUI of this application was built using HTML, CSS and JavaScript
 
 📌 Landing Screen 
 
-![Landing Screen]('../../images/landing.png')
+![Landing Screen]('../images/landing.png')
 
 📌 How it Works
 
-![Working Screen]('../../images/working.png')
+![Working Screen]('../images/working.png')
 
 📌 User Input Screen
 
-![Input Screen]('../../images/input.png')
+![Input Screen]('../images/contact.png')
 
 📌 Output Summary 
 
-![Output Screen]('../../images/output.png')
+![Output Screen]('../images/output.png')
 
 📌 Contact Us 
 
-![Contact Screen]('../../images/contact.png')
+![Contact Screen]('../images/contact.png')
 
 ## 💻Built With : 
 
-➡ HTML
-➡ CSS
-➡ JavaScript
-➡ NLTK 
-➡ Flask
+- ➡ HTML
+- ➡ CSS
+- ➡ JavaScript
+- ➡ NLTK 
+- ➡ Flask
 
 ## 💻 How it Works : 
 
