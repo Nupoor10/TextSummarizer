@@ -8,23 +8,23 @@ The GUI of this application was built using HTML, CSS and JavaScript
 
 📌 Landing Screen 
 
-![Landing Screen](../images/landing.png)
+![Landing Screen](https://i.ibb.co/ZBj56Kw/landing.png)
 
 📌 How it Works
 
-![Working Screen](../images/working.png)
+![Working Screen](https://i.ibb.co/CKKZLtg/working.png)
 
 📌 User Input Screen
 
-![Input Screen](../images/contact.png)
+![Input Screen](https://i.ibb.co/1vxVH12/input.png)
 
 📌 Output Summary 
 
-![Output Screen](../images/output.png)
+![Output Screen](https://i.ibb.co/BB2Pxmd/output.png)
 
 📌 Contact Us 
 
-![Contact Screen](../images/contact.png)
+![Contact Screen](https://i.ibb.co/f0QgZ8K/contact.png)
 
 ## 💻Built With : 
 
